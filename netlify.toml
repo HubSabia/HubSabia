@@ -1,0 +1,30 @@
+#[build]
+#command = "npm run build"
+
+#[functions]
+#  # Diretório raiz das funções (se for diferente da raiz do projeto)
+#  directory = "src"
+#  [functions.command]
+#  # Comando para iniciar o servidor
+#  command = "npm start"
+
+# Módulos npm externos necessários
+#external_node_modules = [
+#    "express",
+#    "mongoose",
+#    "vue",
+#    "vue-loader",
+#    "vue-template-compiler",
+#    "axios",
+#    "core-js",
+#    "cors",
+#    "crypto",
+#    "dotenv",
+#    "os",
+#    "path",
+#    "stream",
+#    "stream-browserify",
+#    "vue-router",
+#    "@google/generative-ai",
+#]
+

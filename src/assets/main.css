@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+
+  * {
+    margin: 0;
+    font-family: inter;
+  }
+  
+ 
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  a, li {
+    text-decoration: none;
+    list-style: none;
+  }
+  
+ 
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  .navbar-container {
+    display: flex;
+    width: 100%;
+    background-color: rgb(160, 116, 196);
+    display: fixed;
+  }
+  
+
+  #menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    padding: 0.9rem;
+  }
+
+  #menu li a{
+    color: white !important;
+    padding: 0.8rem;
+  }
+
+  .router-link-active {
+    background-color: #6E338D !important;
+  }
+
+  .authors-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 20px;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.author img {
+    width: 150px;
+    height: 150px;
+    border-radius: 9999rem;
+    object-fit: cover;
+    object-position:  50% 30%;
+}
+
+.author h3 {
+    margin-top: 10px;
+}
+
+.author p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+/* Seção de autores */
+.authors-section {
+  padding: 40px 20px; /* Espaçamento adicional */
+}
+
+.author {
+  width: 25%; /* Ajuste a largura dos contêineres */
+  margin-bottom: 30px;
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 20px; /* Espaçamento interno */
+}
+
+.author img {
+  border-radius: 50%; /* Foto redonda */
+  margin-bottom: 15px; /* Espaçamento entre foto e nome */
+}
+
+.author h3 {
+  font-size: 1.2em; /* Tamanho de fonte maior para o nome */
+  margin-bottom: 10px;
+}
+
+.author p {
+  font-size: 1em; /* Tamanho de fonte padrão para a descrição */
+  color: #555; /* Cor de texto */
+}
+
+@media (max-width: 768px) {
+  .authors-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .author {
+    width: 80%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+}
+
+  
+  

@@ -1,0 +1,49 @@
+{
+    "edital": {
+      "numero": "87",
+      "data": "20 de setembro de 2024",
+      "titulo": "PROCESSO SELETIVO IFPR 2025 - CURSOS TÉCNICOS INTEGRADOS AO ENSINO MÉDIO",
+      "texto": "O Reitor do Instituto Federal de Educação, Ciência e Tecnologia do Paraná, no uso da competência que lhe confere o Decreto de 06 de fevereiro de 2024, publicado no Diário Oficial da União no dia 07 de fevereiro de 2024, seção 2, página 01, torna público as normas que regem o Processo Seletivo IFPR 2025 para ingresso nos Cursos Técnicos Integrados ao Ensino Médio, na modalidade presencial, ofertados para o ano de 2025, considerando a política de inclusão do IFPR para o ingresso de estudantes nos cursos. As inscrições estarão abertas de 03 de outubro a 01 de novembro de 2024.",
+      "base_legal": [
+        {
+          "lei": "Lei nº 9.394",
+          "data": "20 de dezembro de 1996",
+          "descricao": "Estabelece as diretrizes e bases da educação nacional."
+        },
+        {
+          "decreto": "Decreto nº 3.298",
+          "data": "20 de dezembro de 1999",
+          "descricao": "Regulamenta a Lei no 7.853, de 24 de outubro de 1989, dispõe sobre a Política Nacional para a Integração da Pessoa Portadora de Deficiência, consolida as normas de proteção, e dá outras providências."
+        }
+      ],
+      "disposicoes_preliminares": [
+        {
+          "numero": "1.1",
+          "texto": "Os Cursos Técnicos Integrado ao Ensino Médio, objeto deste certame, são públicos, gratuitos e presenciais, devendo o(a) candidato(a) ter disponibilidade de tempo para realizar atividades no contraturno e/ou aos sábados, conforme o calendário acadêmico do campus e o projeto pedagógico do curso."
+        },
+        {
+          "numero": "1.1.1",
+          "texto": "Para acessar tutoriais em vídeo sobre o processo seletivo (com acessibilidade), utilize o endereço eletrônico https://ifpr.edu.br/estude-conosco/processo-seletivo-2025/tutoriais/."
+        }
+        
+      ],
+      "forma_de_oferta": {
+        "texto": "2.1 Os Cursos Técnicos Integrados ao Ensino Médio ofertados neste Edital, na modalidade presencial, são caracterizados pelas formas de oferta integrada – oferecida a quem já tenha concluído o Ensino Fundamental. Os cursos são organizados de modo que o estudante, a partir de única matrícula no IFPR, conclua o Ensino Médio juntamente a uma habilitação profissional técnica de nível médio."
+      },
+      "cursos_e_vagas": {
+        "texto": "3.1 A distribuição das vagas nos diversos cursos e campi do IFPR e nas diferentes ações afirmativas (cotas de inclusão) e ampla concorrência encontram-se, respectivamente, no Anexo I e no Anexo II deste Edital."
+      
+      },
+      
+      "anexos": [
+        {
+          "numero": "I",
+          "titulo": "QUADRO DE OFERTAS DE CURSOS TÉCNICOS INTEGRADOS AO ENSINO MÉDIO"
+        },
+        {
+          "numero": "II",
+          "titulo": "DISTRIBUIÇÃO DAS VAGAS POR FAIXAS DE AÇÃO AFIRMATIVA"
+        }
+      ]
+    }
+  }
