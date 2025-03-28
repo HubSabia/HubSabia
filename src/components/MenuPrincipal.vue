@@ -33,7 +33,6 @@
     z-index: 1000;
     padding: 20px ;
   }
-  }
   
   /* Estilos para a navbar */
   #menu {
