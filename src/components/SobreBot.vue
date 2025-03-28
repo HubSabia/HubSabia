@@ -77,7 +77,7 @@ export default {
   padding: 0px 0;
   height: 15px;
   /* Ajuste o valor para a altura desejada */
-
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Estilos para a navbar */
