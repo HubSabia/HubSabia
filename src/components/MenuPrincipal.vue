@@ -25,12 +25,14 @@
   <style scoped>
   /* Estilos para o contêiner principal da navbar */
   .navbar-container {
+    width: auto;
+    margin: 0px;
     display: flex;
     justify-content: center;
     position: fixed;
     z-index: 1000;
     padding: 20px ;
-    box-shadow: 1px 3px 4px;
+  }
   }
   
   /* Estilos para a navbar */
