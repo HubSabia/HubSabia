@@ -16,9 +16,9 @@
 </template>
 
 <script>
-import fotoAnna from "@/assets/foto-anna.jpg";
-import fotoNicolas from "@/assets/foto-nicolas.jpg";
-import fotoNikoli from "@/assets/foto-nikoli.jpg";
+import fotoHeitor from "@/assets/foto-heitor.jpg";
+import fotoCarlos from "@/assets/foto-carlos.jpg";
+import fotoKallel from "@/assets/foto-kallel.jpg";
 import fotoNovo3 from "@/assets/foto-novo3.jpg";
 
 
@@ -30,23 +30,23 @@ export default {
     return {
       authors: [
         {
-          name: "Anna Julia Lopes",
-          image: fotoAnna,
-          link: "https://www.instagram.com/anna.julia_015?igsh=MTg2dmZ2NG95Z3Z4dg==",
+          name: "Heitor Gavioli",
+          image: fotoHeitor,
+          link: "https://www.instagram.com/heitor_gavioli?igsh=MXZuYnp1aml1cWdkOQ==",
           description:
             "Discente do IFPR - Campus Assis Chateaubriand",
         },
         {
-          name: "Nicolas Bordini",
-          image: fotoNicolas,
-          link: "https://www.instagram.com/nicolas.bordinii?igsh=MXdxOGx3NThmeTN2bA==",
+          name: "Carlos Eduardo",
+          image: fotoCarlos,
+          link: "https://www.instagram.com/carloos_edu_01?igsh=NzR2aHhqNWk0Nzdj==",
           description:
             "Discente do IFPR - Campus Assis Chateaubriand",
         },
         {
-          name: "Nikoli Azevedo",
-          image: fotoNikoli,
-          link: "https://www.instagram.com/nikoli_azevedo?igsh=MW4xM29qY2s0emZqaQ==",
+          name: "Kallel Mota",
+          image: fotoKallel,
+          link: "",
           description:
             "Discente do IFPR - Campus Assis Chateaubriand",
         },
@@ -77,7 +77,7 @@ export default {
   padding: 0px 0;
   height: 15px;
   /* Ajuste o valor para a altura desejada */
-
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Estilos para a navbar */
