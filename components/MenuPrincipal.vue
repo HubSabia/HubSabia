@@ -65,6 +65,7 @@
   /* Adiciona um espaçamento ao conteúdo para não ficar atrás da navbar fixa */
   body {
     margin-top: 70px;
+
   }
   </style>
   

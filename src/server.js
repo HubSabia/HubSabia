@@ -43,7 +43,7 @@ app.use(cors({
 }));
 
 const uri =
-  "mongodb+srv://sabia_bot:yX5zr}}T^E~8jLX@cluster0.prr5ivq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://Hubsabia:bH5yT7mK}}T^E~8jLX@cluster0.2aberll.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 // "mongodb+srv://sabia_bot:<db_password>@cluster0.prr5ivq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 // const client = new MongoClient(uri, {
 //   serverApi: ServerApiVersion.v1,

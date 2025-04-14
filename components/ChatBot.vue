@@ -1,42 +1,41 @@
 <template>
-    <div class="chat-container">
-        <div v-if="loading" class="loading-overlay">
-            <div class="loading-indicator">
-                Processando.. aguarde alguns segundos... ⏳
-            </div>
-        </div>
-		<div class="chat-box-parent">
-        <div class="chat-box">
-            <div v-for="message in mensagensVisiveis" :key="message.id" :class="{
-                'user-message': message.sender === 'user',
-                'ai-message': message.sender === 'model',
-                message: true,
-                clearfix: true,
-            }" ref="messageElements">
-
-                <div v-html="message.text"></div>
-
-                <!-- {{ message.text }} -->
-            </div>
-		</div>
-
-        </div>
-        <div class="input-area">
-            <textarea v-model="userInput" placeholder="Digite sua mensagem..." rows="3"></textarea>
-            <button @click="sendMessage">Enviar</button>
-            <!-- Botão para registrar nova conversa -->
-            <!-- <button @click="registrarHistorico('João', 'Nova mensagem')">
-            Registrar Conversa
-            </button> -->
-        </div>
-    </div>
+		<div class="chat-container">
+			<div v-if="loading" class="loading-overlay">
+				<div class="loading-indicator">
+					Processando.. aguarde alguns segundos... ⏳
+				</div>
+			</div>
+			<div class="chat-box-parent">
+			<div class="chat-box">
+				<div v-for="message in mensagensVisiveis" :key="message.id" :class="{
+					'user-message': message.sender === 'user',
+					'ai-message': message.sender === 'model',
+					message: true,
+					clearfix: true,
+				}" ref="messageElements">
+	
+					<div v-html="message.text"></div>
+	
+					<!-- {{ message.text }} -->
+				</div>
+			</div>
+	
+			</div>
+			<div class="input-area">
+				<textarea v-model="userInput" placeholder="Digite sua mensagem..." rows="3"></textarea>
+				<button @click="sendMessage">Enviar</button>
+				<!-- Botão para registrar nova conversa -->
+				<!-- <button @click="registrarHistorico('João', 'Nova mensagem')">
+				Registrar Conversa
+				</button> -->
+			</div>
+	</div>
 </template>
 <style scoped>
 /* Estilos do componente (os mesmos do código original, adaptados para scoped) */
-template{
-    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.05);
+html, body{
+	background-color: #1E1E1E ;
 }
-
 .loading-overlay {
     position: fixed;
     top: 0;
@@ -65,14 +64,14 @@ template{
     margin: 0 auto;
     max-width: 600px;
 	height: 80vh;
-    background-color: #f4f4f9;
+    background-color: #2C2C2E ;
     /* background-image: url('../assets/banner-geral-1536x864.png'); */
 
     /* Ajuste a imagem para cobrir todo o container */
 
     /* Centralize a imagem */
     border-radius: 15px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     /* background: linear-gradient(135deg, #fff, #e0e0e0); */
 }
 .chat-box {
@@ -89,19 +88,20 @@ template{
 }
 
 textarea {
+	color: #D1D1D6  ;
     flex-grow: 1;
     padding: 15px;
     border-radius: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #222222 ;
     resize: none;
     box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
     font-size: 16px;
-    background-color: #f9f9f9;
+    background-color: #3A3A3C ;
 }
 
 button {
     padding: 10px 30px;
-    background-color: #663399;
+    background-color: #A89CFF ;
     color: white;
     border: none;
     border-radius: 20px;
@@ -127,16 +127,18 @@ button:hover {
 
 /* Mensagens do usuário à direita */
 .user-message {
-    background-color: #dcd6ff;
+    background-color: #3A3A3C ;
     text-align: right;
     float: right;
+	color: #D1D1D6  ;
 }
 
 /* Mensagens da IA à esquerda */
 .ai-message {
-    background-color: #f1f1f1;
+    background-color: #3c3c3C ;
     text-align: left;
     float: left;
+	color: #D1D1D6  ;
 }
 
 .clearfix::after {
